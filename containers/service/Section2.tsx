@@ -4,7 +4,7 @@ import { Text } from "react-native";
 export function Section2() {
   return (
     <Box
-      backgroundColor="green"
+      backgroundColor="#A1CEDC"
       height={800}
       display="flex"
       justifyContent="center"
