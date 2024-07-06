@@ -1,12 +1,11 @@
 import { Box } from "@/components/Box";
-import { Image, Text } from "react-native";
+import { Image } from "react-native";
 
 export function Section1() {
   return (
     <Box
       backgroundColor="cyan"
       display="flex"
-      // justifyContent="center"
       alignItems="center"
       gap={5}
     >
@@ -17,7 +16,6 @@ export function Section1() {
 
         style={{ height: 200, width: '100%' }}
       />
-      <Text>words that describe something or someone. [count] Reporters called the scene “a disaster area,” and I think that was an accurate description. I applied for the position after reading the job</Text>
     </Box>
   );
 }

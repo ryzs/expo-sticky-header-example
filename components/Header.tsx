@@ -24,6 +24,7 @@ export function Header({ name }: { name: string }) {
       flexDirection="row"
       justifyContent="space-between"
       alignItems="center"
+      zIndex={10}
     >
       <Pressable onPress={() => router.back()}>
         <Text>Back</Text>
